@@ -11,7 +11,7 @@ const projectsData = [
   {
     id: 1,
     title: "React Todo App",
-    description: "Project 1 ",
+    description: "Built with React js ",
     image: "/images/projects/1.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/n1j10",
@@ -20,7 +20,7 @@ const projectsData = [
   {
     id: 2,
     title: "Potography Cards ",
-    description: "Project 2",
+    description: "HTML, CSS, JS",
     image: "/images/projects/2.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/n1j10",
@@ -29,7 +29,7 @@ const projectsData = [
   {
     id: 3,
     title: "Cards",
-    description: "Project 3",
+    description: "Built with Next js",
     image: "/images/projects/3.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/n1j10",
@@ -38,7 +38,7 @@ const projectsData = [
   {
     id: 4,
     title: "Bitcoin Converter",
-    description: "Project 4",
+    description: "HTML, CSS",
     image: "/images/projects/4.png",
     tag: ["All", "Mobile"],
     gitUrl: "https://github.com/n1j10",
@@ -46,8 +46,8 @@ const projectsData = [
   },
   {
     id: 5,
-    title: "Search for food",
-    description: "Project 6",
+    title: "Portfolio",
+    description: "Built with Next js and Tailwind CSS",
     image: "/images/projects/5.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/n1j10",
@@ -56,7 +56,7 @@ const projectsData = [
   {
     id: 6,
     title: "Opreating System",
-    description: "Project 6 ",
+    description: "HTML, CSS",
     image: "/images/projects/6.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/n1j10",
