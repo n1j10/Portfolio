@@ -28,7 +28,7 @@ const projectsData = [
   },
   {
     id: 3,
-    title: "Cards",
+    title: "E-Commerce",
     description: "Built with Next js",
     image: "/images/projects/3.png",
     tag: ["All", "Web"],
@@ -63,19 +63,19 @@ const projectsData = [
     previewUrl: "https://oracle2.netlify.app/",
   },
 ];
- const ProjectsSection = () => {
+const ProjectsSection = () => {
   const [tag, setTag] = useState("All");
-    const ref = useRef(null);
-    const isInView = useInView(ref);
+  const ref = useRef(null);
+  const isInView = useInView(ref);
 
- const handelTagChange = (newTag) => {
+  const handelTagChange = (newTag) => {
     setTag(newTag);
- }
+  }
   const filteredProjects = projectsData.filter((project) =>
     project.tag.includes(tag)
   );
 
-    const cardVariants = {
+  const cardVariants = {
     initial: { y: 50, opacity: 0 },
     animate: { y: 0, opacity: 1 },
   };
@@ -83,55 +83,55 @@ const projectsData = [
 
   return (
     <section id="projects">
-        <h2 className='text-center text-4xl font-bold text-transparent bg-clip-text bg-linear-to-r from-blue-900 to-red-600 mt-4 mb-8 md:mb-12'>
-            My Projects
-        </h2>
+      <h2 className='text-center text-4xl font-bold text-transparent bg-clip-text bg-linear-to-r from-blue-900 to-red-600 mt-4 mb-8 md:mb-12'>
+        My Projects
+      </h2>
 
-<div className='text-white flex flex-row justify-center gap-2 py-6'>
-    <ProjectTag
-    name="All"
-    onClick={handelTagChange}
-    isSelected={tag === "All"}
-    />
-       <ProjectTag
-    name="Web"
-    onClick={handelTagChange}
-    isSelected={tag === "Web"}
-    />
-       <ProjectTag
+      <div className='text-white flex flex-row justify-center gap-2 py-6'>
+        <ProjectTag
+          name="All"
+          onClick={handelTagChange}
+          isSelected={tag === "All"}
+        />
+        <ProjectTag
+          name="Web"
+          onClick={handelTagChange}
+          isSelected={tag === "Web"}
+        />
+        <ProjectTag
           onClick={handelTagChange}
           name="Mobile"
           isSelected={tag === "Mobile"}
         />
 
-</div>
+      </div>
 
-<ul ref={ref} className="grid  md:grid-cols-3 gap-8 md:gap-12">
-{
-filteredProjects.map((project,index)=>(
-   <motion.li
-            key={index}
-            variants={cardVariants}
-            initial="initial"
-            animate={isInView ? "animate" : "initial"}
-            transition={{ duration: 0.3, delay: index * 0.4 }}
-          >
+      <ul ref={ref} className="grid  md:grid-cols-3 gap-8 md:gap-12">
+        {
+          filteredProjects.map((project, index) => (
+            <motion.li
+              key={index}
+              variants={cardVariants}
+              initial="initial"
+              animate={isInView ? "animate" : "initial"}
+              transition={{ duration: 0.3, delay: index * 0.4 }}
+            >
 
 
 
-       <ProjectCard
-              key={project.id}
-              title={project.title}
-              description={project.description}
-              imgUrl={project.image}
-              gitUrl={project.gitUrl}
-              previewUrl={project.previewUrl}
-            />
-             </motion.li>
-))
-}
+              <ProjectCard
+                key={project.id}
+                title={project.title}
+                description={project.description}
+                imgUrl={project.image}
+                gitUrl={project.gitUrl}
+                previewUrl={project.previewUrl}
+              />
+            </motion.li>
+          ))
+        }
 
-</ul>
+      </ul>
 
     </section>
   )
