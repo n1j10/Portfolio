@@ -50,7 +50,7 @@ const projectsData = [
     description: "Built with Next js and Tailwind CSS",
     image: "/images/projects/5.png",
     tag: ["All", "Web"],
-    gitUrl: "https://github.com/n1j10",
+    gitUrl: "https://github.com/n1j10/Portfolio",
     previewUrl: "https://portfolio-sooty-six-b2gbbrq6pb.vercel.app/",
   },
   {
