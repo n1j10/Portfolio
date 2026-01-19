@@ -32,8 +32,8 @@ const projectsData = [
     description: "Built with Next js",
     image: "/images/projects/3.png",
     tag: ["All", "Web"],
-    gitUrl: "https://github.com/n1j10",
-    previewUrl: "https://card-map10.netlify.app/",
+    gitUrl: "https://github.com/n1j10/e-store-nextjs-",
+    previewUrl: "https://e-store-nextjs-psi.vercel.app/",
   },
   {
     id: 4,
@@ -51,7 +51,7 @@ const projectsData = [
     image: "/images/projects/5.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/n1j10",
-    previewUrl: "https://search-btn-rami.netlify.app/",
+    previewUrl: "https://portfolio-sooty-six-b2gbbrq6pb.vercel.app/",
   },
   {
     id: 6,
