@@ -19,13 +19,14 @@ const projectsData = [
   },
   {
     id: 2,
-    title: "Potography Cards ",
-    description: "HTML, CSS, JS",
+    title: "Grocery Makrtet" ,
+    description: "HTML, CSS, JS, Next js, Tailwind CSS , shadcn ui",
     image: "/images/projects/2.png",
     tag: ["All", "Web"],
-    gitUrl: "https://github.com/n1j10",
-    previewUrl: "https://subs10.netlify.app",
+    gitUrl: "https://github.com/n1j10/grocery-e",
+    previewUrl: "https://grocery-e-x3ux.vercel.app",
   },
+
   {
     id: 3,
     title: "E-Commerce",
@@ -35,6 +36,7 @@ const projectsData = [
     gitUrl: "https://github.com/n1j10/e-store-nextjs-",
     previewUrl: "https://e-store-nextjs-psi.vercel.app/",
   },
+
   {
     id: 4,
     title: "Bitcoin Converter",
@@ -54,13 +56,13 @@ const projectsData = [
     previewUrl: "https://portfolio-sooty-six-b2gbbrq6pb.vercel.app/",
   },
   {
-    id: 6,
-    title: "Opreating System",
-    description: "HTML, CSS",
+ id: 6,
+    title: "Potography Cards ",
+    description: "HTML, CSS, JS",
     image: "/images/projects/6.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/n1j10",
-    previewUrl: "https://oracle2.netlify.app/",
+    previewUrl: "https://subs10.netlify.app",
   },
 ];
 const ProjectsSection = () => {
