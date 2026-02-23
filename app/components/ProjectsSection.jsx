@@ -20,7 +20,7 @@ const projectsData = [
   {
     id: 2,
     title: "Grocery Makrtet" ,
-    description: "HTML, CSS, JS, Next js, Tailwind CSS , shadcn ui",
+    description: "Fullstack web maraket build using Next js, Tailwind CSS , shadcn ui and strapi + axios as backend",
     image: "/images/projects/2.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/n1j10/grocery-e",
@@ -57,16 +57,16 @@ const projectsData = [
   },
   {
  id: 6,
-    title: "Potography Cards ",
-    description: "HTML, CSS, JS",
+    title: "Doctor Appointment",
+    description: "Doctor appointment booking system build using Next js, Tailwind CSS , shadcn ui and strapi + axios as backend",
     image: "/images/projects/6.png",
     tag: ["All", "Web"],
-    gitUrl: "https://github.com/n1j10",
-    previewUrl: "https://subs10.netlify.app",
+    gitUrl: "https://github.com/n1j10/grocery-e",
+    previewUrl: "https://appointment-app-gamma-two.vercel.app/",
   },
 ];
 const ProjectsSection = () => {
-  const [tag, setTag] = useState("All");
+  const [tag, setTag] = useState("All ");
   const ref = useRef(null);
   const isInView = useInView(ref);
 

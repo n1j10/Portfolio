@@ -1,14 +1,8 @@
 
 "use client";
 import React from 'react'
-
-
-
-
  const AchievementsSection = () => {
   return (
-
-
     <div className='flex flex-row gap-22 items-center justify-start'>
         
             <div>

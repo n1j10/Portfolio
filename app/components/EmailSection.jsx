@@ -9,8 +9,6 @@ import { useState } from 'react';
 
  const EmailSection = () => {
   const [emailSubmitted, setEmailSubmitted] = useState(false);
-
-
   const handleSubmit = async (e) => {
     e.preventDefault();
     const data = {
