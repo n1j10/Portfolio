@@ -66,7 +66,7 @@ const projectsData = [
   },
 ];
 const ProjectsSection = () => {
-  const [tag, setTag] = useState("All ");
+  const [tag, setTag] = useState("All");
   const ref = useRef(null);
   const isInView = useInView(ref);
 
