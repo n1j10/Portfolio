@@ -10,12 +10,12 @@ import { motion, useInView } from "framer-motion";
 const projectsData = [
   {
     id: 1,
-    title: "React Todo App",
-    description: "Built with React js ",
+    title: "Travel Planer Web",
+  description: "Fullstack E-Commerce build using Next js, Tailwind CSS , shadcn ui and prisma with neon as backend",
     image: "/images/projects/1.png",
     tag: ["All", "Web"],
-    gitUrl: "https://github.com/n1j10",
-    previewUrl: "https://rad-medovik-a095b4.netlify.app",
+    gitUrl: "https://github.com/n1j10/AiTravelPlaner",
+    previewUrl: "https://ai-travel-planer-fm2htpd8r-n1js-projects.vercel.app/",
   },
   {
     id: 2,
@@ -30,7 +30,7 @@ const projectsData = [
   {
     id: 3,
     title: "E-Commerce",
-    description: "Built with Next js",
+    description: "Fullstack E-Commerce build using Next js, Tailwind CSS",
     image: "/images/projects/3.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/n1j10/e-store-nextjs-",
@@ -39,12 +39,12 @@ const projectsData = [
 
   {
     id: 4,
-    title: "Bitcoin Converter",
-    description: "HTML, CSS",
+    title: "E-Commerce",
+    description: "Fullstack E-Commerce build using Next js, Tailwind CSS , shadcn ui and prisma with neon as backend",
     image: "/images/projects/4.png",
     tag: ["All", "Mobile"],
-    gitUrl: "https://github.com/n1j10",
-    previewUrl: "https://bitcoin-rami.netlify.app",
+    gitUrl: "https://github.com/n1j10/ai-emomerce-prisma",
+    previewUrl: "https://ai-emomerce-prisma.vercel.app/",
   },
   {
     id: 5,
