@@ -18,26 +18,6 @@ const projectsData = [
     previewUrl: "https://ai-travel-planer-fm2htpd8r-n1js-projects.vercel.app/",
   },
   {
-    id: 2,
-    title: "Grocery Makrtet" ,
-    description: "Fullstack web maraket build using Next js, Tailwind CSS , shadcn ui and strapi + axios as backend",
-    image: "/images/projects/2.png",
-    tag: ["All", "Web"],
-    gitUrl: "https://github.com/n1j10/grocery-e",
-    previewUrl: "https://grocery-e-x3ux.vercel.app",
-  },
-
-  {
-    id: 3,
-    title: "E-Commerce",
-    description: "Fullstack E-Commerce build using Next js, Tailwind CSS",
-    image: "/images/projects/3.png",
-    tag: ["All", "Web"],
-    gitUrl: "https://github.com/n1j10/e-store-nextjs-",
-    previewUrl: "https://e-store-nextjs-psi.vercel.app/",
-  },
-
-  {
     id: 4,
     title: "E-Commerce",
     description: "Fullstack E-Commerce build using Next js, Tailwind CSS , shadcn ui and prisma with neon as backend",
@@ -54,6 +34,27 @@ const projectsData = [
     tag: ["All", "Web"],
     gitUrl: "https://github.com/n1j10/Portfolio",
     previewUrl: "https://portfolio-sooty-six-b2gbbrq6pb.vercel.app/",
+  },
+
+
+
+    {
+    id: 2,
+    title: "Grocery Makrtet" ,
+    description: "Fullstack web maraket build using Next js, Tailwind CSS , shadcn ui and strapi + axios as backend",
+    image: "/images/projects/2.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/n1j10/grocery-e",
+    previewUrl: "https://grocery-e-x3ux.vercel.app",
+  },
+  {
+    id: 3,
+    title: "E-Commerce",
+    description: "Fullstack E-Commerce build using Next js, Tailwind CSS",
+    image: "/images/projects/3.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/n1j10/e-store-nextjs-",
+    previewUrl: "https://e-store-nextjs-psi.vercel.app/",
   },
   {
  id: 6,
