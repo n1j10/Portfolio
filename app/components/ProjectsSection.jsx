@@ -39,18 +39,21 @@ const projectsData = [
 
 
     {
-    id: 2,
-    title: "Grocery Makrtet" ,
-    description: "Fullstack web maraket build using Next js, Tailwind CSS , shadcn ui and strapi + axios as backend",
-    image: "/images/projects/2.png",
+    id: 7,
+        title: "Resturant Menu" ,
+
+    description: "Fullstack  Menu build using Next js and prisma , Tailwind CSS , shadcn ui ",
+    image: "/images/projects/7.jpg",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/n1j10/grocery-e",
     previewUrl: "https://grocery-e-x3ux.vercel.app",
   },
+
+
   {
     id: 3,
     title: "E-Commerce",
-    description: "Fullstack E-Commerce build using Next js, Tailwind CSS",
+    description: "E-Commerce build using Next js, Tailwind CSS",
     image: "/images/projects/3.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/n1j10/e-store-nextjs-",
@@ -65,6 +68,17 @@ const projectsData = [
     gitUrl: "https://github.com/n1j10/grocery-e",
     previewUrl: "https://appointment-app-gamma-two.vercel.app/",
   },
+     {
+    id: 2,
+    title: "Grocery Makrtet" ,
+        description: "Fullstack web maraket build using Next js, Tailwind CSS , shadcn ui and strapi + axios as backend",
+
+    image: "/images/projects/2.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/n1j10/restaurant-menu",
+    previewUrl: "https://restaurant-menu-steel-ten.vercel.app/menu",
+  },
+  
 ];
 const ProjectsSection = () => {
   const [tag, setTag] = useState("All");
