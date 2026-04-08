@@ -77,6 +77,16 @@ const projectsData = [
     tag: ["All", "Web"],
     gitUrl: "https://github.com/n1j10/restaurant-menu",
     previewUrl: "https://restaurant-menu-steel-ten.vercel.app/menu",
+    
+  },
+    {
+    id: 1,
+    title: "Travel Planer Web",
+  description: "Fullstack E-Commerce build using Next js, Tailwind CSS , shadcn ui and prisma with neon as backend",
+    image: "/images/projects/1.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/n1j10/AiTravelPlaner",
+    previewUrl: "https://ai-travel-planer-fm2htpd8r-n1js-projects.vercel.app/",
   },
   
 ];
