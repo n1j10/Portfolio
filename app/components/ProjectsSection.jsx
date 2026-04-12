@@ -38,6 +38,7 @@ const projectsData = [
 
 
 
+  
     {
     id: 7,
         title: "Resturant Menu" ,
@@ -60,13 +61,13 @@ const projectsData = [
     previewUrl: "https://e-store-nextjs-psi.vercel.app/",
   },
   {
- id: 6,
-    title: "Doctor Appointment",
-    description: "Doctor appointment booking system build using Next js, Tailwind CSS , shadcn ui and strapi + axios as backend",
-    image: "/images/projects/6.png",
+ id: 8,
+    title: "technology store",
+    description: "e-store- for electronics build using React js, mongoose as backend + Tailwind CSS , shadcn ui",
+    image: "/images/projects/8.jpg",
     tag: ["All", "Web"],
-    gitUrl: "https://github.com/n1j10/grocery-e",
-    previewUrl: "https://appointment-app-gamma-two.vercel.app/",
+    gitUrl: "https://github.com/n1j10/electric-store-mern",
+    previewUrl: "https://electric-store-test.vercel.app/",
   },
      {
     id: 2,
@@ -87,6 +88,15 @@ const projectsData = [
     tag: ["All", "Web"],
     gitUrl: "https://github.com/n1j10/AiTravelPlaner",
     previewUrl: "https://ai-travel-planer-fm2htpd8r-n1js-projects.vercel.app/",
+  },
+    {
+ id: 6,
+    title: "Doctor Appointment",
+    description: "Doctor appointment booking system build using Next js, Tailwind CSS , shadcn ui and strapi + axios as backend",
+    image: "/images/projects/6.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/n1j10/grocery-e",
+    previewUrl: "https://appointment-app-gamma-two.vercel.app/",
   },
   
 ];
