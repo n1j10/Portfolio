@@ -63,7 +63,7 @@ const projectsData = [
   {
  id: 8,
     title: "technology store",
-    description: "e-store- for electronics build using React js, mongoose as backend + Tailwind CSS , shadcn ui",
+    description: "e-store- for electronics build using React js and e mongoose as backend + Tailwind CSS , shadcn ui",
     image: "/images/projects/8.jpg",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/n1j10/electric-store-mern",
