@@ -22,7 +22,7 @@ const projectsData = [
     title: "E-Commerce",
     description: "Fullstack E-Commerce build using Next js, Tailwind CSS , shadcn ui and prisma with neon as backend",
     image: "/images/projects/4.png",
-    tag: ["All", "Mobile"],
+    tag: ["All", "Web"],
     gitUrl: "https://github.com/n1j10/ai-emomerce-prisma",
     previewUrl: "https://ai-emomerce-prisma.vercel.app/",
   },
@@ -49,16 +49,14 @@ const projectsData = [
     gitUrl: "https://github.com/n1j10/grocery-e",
     previewUrl: "https://grocery-e-x3ux.vercel.app",
   },
-
-
   {
-    id: 3,
-    title: "E-Commerce",
-    description: "E-Commerce build using Next js, Tailwind CSS",
-    image: "/images/projects/3.png",
+    id: 3, 
+    title: "Doctor Appointment",
+    description: "Doctor appointment booking system build using Next js, Tailwind CSS , shadcn ui and prisma as backend",
+    image: "/images/projects/10.png",
     tag: ["All", "Web"],
-    gitUrl: "https://github.com/n1j10/e-store-nextjs-",
-    previewUrl: "https://e-store-nextjs-psi.vercel.app/",
+    gitUrl: "https://github.com/n1j10/doctor-appointment-nextjs",
+    previewUrl: "https://doctor-appoit.vercel.app/",
   },
   {
  id: 8,
@@ -108,6 +106,15 @@ const projectsData = [
     gitUrl: "https://github.com/n1j10/restaurant-menu",
     previewUrl: "https://restaurant-menu-steel-ten.vercel.app/menu",
     
+  },
+    {
+    id: 3,
+    title: "E-Commerce",
+    description: "E-Commerce build using Next js, Tailwind CSS",
+    image: "/images/projects/3.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/n1j10/e-store-nextjs-",
+    previewUrl: "https://e-store-nextjs-psi.vercel.app/",
   },
   
 ];
