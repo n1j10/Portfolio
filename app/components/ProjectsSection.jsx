@@ -88,6 +88,18 @@ const projectsData = [
     previewUrl: "https://ai-travel-planer-fm2htpd8r-n1js-projects.vercel.app/",
   },
     {
+ id: 10,
+    title: "Book store",
+    description: "Book store build using  React js and express js with mongodb, Tailwind CSS , shadcn ui ",
+    image: "/images/projects/11.jpg",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/n1j10/BookStoreApp-MERN",
+    previewUrl: "https://book-store-app-mern-37p9.vercel.app/",
+  },
+
+
+
+      {
  id: 6,
     title: "Doctor Appointment",
     description: "Doctor appointment booking system build using Next js, Tailwind CSS , shadcn ui and strapi + axios as backend",
