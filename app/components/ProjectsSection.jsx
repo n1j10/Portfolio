@@ -46,8 +46,8 @@ const projectsData = [
     description: "Fullstack  Menu build using Next js and prisma , Tailwind CSS , shadcn ui ",
     image: "/images/projects/7.jpg",
     tag: ["All", "Web"],
-    gitUrl: "https://github.com/n1j10/grocery-e",
-    previewUrl: "https://grocery-e-x3ux.vercel.app",
+     gitUrl: "https://github.com/n1j10/restaurant-menu",
+    previewUrl: "https://restaurant-menu-steel-ten.vercel.app/menu",
   },
   {
     id: 3, 
@@ -115,8 +115,9 @@ const projectsData = [
 
     image: "/images/projects/2.png",
     tag: ["All", "Web"],
-    gitUrl: "https://github.com/n1j10/restaurant-menu",
-    previewUrl: "https://restaurant-menu-steel-ten.vercel.app/menu",
+   
+        gitUrl: "https://github.com/n1j10/grocery-e",
+    previewUrl: "https://grocery-e-x3ux.vercel.app",
     
   },
     {
